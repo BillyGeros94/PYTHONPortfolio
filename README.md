@@ -83,15 +83,15 @@ Projects Overview
 - **Project 4: EDA of Global Companies** 
 
     In this project, I performed an exploratory data analysis (EDA) on a dataset of the world’s largest companies, focusing on revenue, profits, assets, and market value. After loading 
-    the data, I cleaned the financial columns, which included values with 'B' for billions and 'M' for millions, converting them into comparable numerical values. There were a few 
-    missing values in the last row, which I filled with reasonable estimates, ensuring consistency for analysis.
-
+    the data, I cleaned the financial columns, which included values with 'B' for billions and 'M' for millions, converting them into comparable numerical values. Once I ensured the 
+    dataset was ready, I checked for any missing values and confirmed there were none.
+  
     The analysis began by examining the distribution of revenue, profits, and market value. The histograms showed a skewed distribution, with a few large companies dominating the 
-    financial landscape. Using a correlation heatmap, I found a strong correlation between revenue and profits (0.87), but a weaker relationship between assets and other variables, 
-    particularly market value (0.15). This suggests that assets do not strongly predict a company's market valuation, which is likely influenced by profitability and future growth 
-    expectations.
+    financial landscape. Using a correlation heatmap, I found a strong correlation between market value and profits (0.76), but a weaker relationship between assets and other 
+    variables, particularly market value (0.15). This suggests that assets do not strongly predict a company's market valuation, which is likely influenced by profitability and future 
+    growth expectations.
 
-    I then focused on the top 10 companies by revenue, profits, and market value. Companies like Saudi Aramco, JPMorgan Chase, and ICBC were consistently at the top. A scatter plot of 
+    I then focused on the top 10 companies by revenue, profits, and market value. Companies like Saudi Aramco, Apple, and Microsoft were consistently at the top. A scatter plot of 
     revenue versus profits highlighted the positive correlation but also showed outliers with exceptionally high profits.
 
     Next, I explored the data by country. The United States and China dominated, both in terms of the number of companies and total revenue generated. I also calculated the profit 
