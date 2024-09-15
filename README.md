@@ -80,7 +80,27 @@ Projects Overview
    clean row numbering, and the consolidated DataFrame is saved to a CSV file named 'Sports Teams Valuations.csv'. This final dataset provides a comprehensive view of team valuations 
    across major sports leagues, which could be used for further financial or comparative analysis.
 
-- **Project 4:** Cooking up something, don’t go far!
+- **Project 4: EDA of Global Companies** 
+
+    In this project, I performed an exploratory data analysis (EDA) on a dataset of the world’s largest companies, focusing on revenue, profits, assets, and market value. After loading 
+    the data, I cleaned the financial columns, which included values with 'B' for billions and 'M' for millions, converting them into comparable numerical values. There were a few 
+    missing values in the last row, which I filled with reasonable estimates, ensuring consistency for analysis.
+
+    The analysis began by examining the distribution of revenue, profits, and market value. The histograms showed a skewed distribution, with a few large companies dominating the 
+    financial landscape. Using a correlation heatmap, I found a strong correlation between revenue and profits (0.87), but a weaker relationship between assets and other variables, 
+    particularly market value (0.15). This suggests that assets do not strongly predict a company's market valuation, which is likely influenced by profitability and future growth 
+    expectations.
+
+    I then focused on the top 10 companies by revenue, profits, and market value. Companies like Saudi Aramco, JPMorgan Chase, and ICBC were consistently at the top. A scatter plot of 
+    revenue versus profits highlighted the positive correlation but also showed outliers with exceptionally high profits.
+
+    Next, I explored the data by country. The United States and China dominated, both in terms of the number of companies and total revenue generated. I also calculated the profit 
+    margin for each company, identifying the most efficient companies in turning revenue into profits. Additionally, I looked at the market value to revenue ratio, which revealed 
+    companies highly valued by the market relative to their revenue, indicating strong investor confidence.
+
+    Lastly, I analyzed the financial performance of companies by country, finding that the U.S. and China dominate in total revenue, while Saudi Arabia, largely due to Saudi Aramco, 
+    leads in average market value. This project provided a comprehensive view of the financial power of the world’s largest companies, highlighting key players and trends across 
+    different metrics.
 
 - **Project 5:** Heating up, something’s coming!
 
