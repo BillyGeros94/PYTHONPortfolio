@@ -56,7 +56,7 @@ Projects Overview
 
    Overall, these steps resulted in a cleaner, more organized dataset that is better suited for further analysis or reporting.
   
-- **Project 3: Web Scraping And Data Cleaning**
+- **Project 3: Forbes Sports Teams Data**
   
    This project focuses on scraping Forbes data from Wikipedia on the most valuable sports teams across various major leagues and consolidating it into a single dataset. The project 
    uses pandas to read HTML tables from multiple Wikipedia pages and then performs a series of transformations to clean and standardize the data for further analysis. Here's a step-by- 
