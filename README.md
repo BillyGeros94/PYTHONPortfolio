@@ -18,7 +18,7 @@ Each project in this repository showcases these libraries in action, addressing 
 
 Projects Overview
 
-- **Project 1: FBREF Scraper**
+- **Project 1: FBREF**
    
    In this project, I set out to gather detailed Premier League statistics for the 2023-2024 season from the FBref website. I started by making a request to the URL where the data is 
    hosted. Using BeautifulSoup, a tool that helps parse HTML content, I was able to navigate the page and locate the table containing the stats I needed.
