@@ -80,7 +80,7 @@ Projects Overview
    clean row numbering, and the consolidated DataFrame is saved to a CSV file named 'Sports Teams Valuations.csv'. This final dataset provides a comprehensive view of team valuations 
    across major sports leagues, which could be used for further financial or comparative analysis.
 
-- **Project 4: EDA of Global Companies** 
+- **Project 4: Global Companies** 
 
     In this project, I performed an exploratory data analysis (EDA) on a dataset of the world’s largest companies, focusing on revenue, profits, assets, and market value. After loading 
     the data, I cleaned the financial columns, which included values with 'B' for billions and 'M' for millions, converting them into comparable numerical values. Once I ensured the 
