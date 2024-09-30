@@ -33,7 +33,7 @@ Projects Overview
    for further analysis or share with others. The final CSV file contains a structured summary of Premier League teams' performance metrics, neatly arranged for any subsequent review or 
    reporting. Overall, the project highlights my ability to scrape, process, and organize web data into a useful format.
   
-- **Project 2: FIFA 21 Data Cleaning**
+- **Project 2: FIFA 21**
 
    In my project, I started by working with a dataset from FIFA 21 that includes various details about football players. The first task was to clean up the dataset by removing columns 
    that weren’t needed for my analysis. Specifically, I dropped columns like 'photoUrl', 'playerUrl', and 'Hits', which didn’t provide useful information for my purposes.
@@ -56,7 +56,7 @@ Projects Overview
 
    Overall, these steps resulted in a cleaner, more organized dataset that is better suited for further analysis or reporting.
   
-- **Project 3: Forbes Sports Teams Data**
+- **Project 3: Forbes Sports Teams**
   
    This project focuses on scraping Forbes data from Wikipedia on the most valuable sports teams across various major leagues and consolidating it into a single dataset. The project 
    uses pandas to read HTML tables from multiple Wikipedia pages and then performs a series of transformations to clean and standardize the data for further analysis. Here's a step-by- 
