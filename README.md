@@ -102,7 +102,36 @@ Projects Overview
     leads in average market value. This project provided a comprehensive view of the financial power of the world’s largest companies, highlighting key players and trends across 
     different metrics.
 
-- **Project 5:** Heating up, something’s coming!
+- **Project 5: IBM**
+
+    In this project, I focused on analyzing IBM's financial performance using Python, leveraging libraries like Pandas, Numpy, Matplotlib, and Seaborn for data manipulation, 
+    visualization, and analysis. The data came from three primary financial statements: the balance sheet, cash flow statement, and income statement, all imported from CSV files.
+
+    I started by cleaning and preparing the data, converting the fiscal dates to a uniform format to facilitate time series analysis. After checking for missing values, I filled the 
+    gaps with zeros to ensure smooth calculations, ensuring the dataset was complete and ready for analysis.
+
+    For the balance sheet, I calculated important liquidity ratios, including the current ratio, quick ratio, and cash ratio. These ratios help gauge IBM's ability to meet short-term 
+    obligations, with the quick ratio providing a more conservative estimate by excluding inventory. I also looked at growth rates for assets, liabilities, and shareholder equity, 
+    measuring how these critical financial items have changed year over year, offering insights into IBM’s expansion and leverage over time.
+
+    Moving to the income statement, I calculated the gross profit margin and net profit margin. These profitability ratios reflect how efficiently IBM is managing costs and turning 
+    revenue into profit. The gross profit margin indicates how well the company controls production costs, while the net profit margin shows overall profitability after all expenses are 
+    accounted for.
+
+    In the cash flow analysis, I explored IBM’s cash from operations, investments, and financing activities over time. I also calculated free cash flow by subtracting capital 
+    expenditures from operating cash flow, a key measure that shows IBM’s ability to generate cash to fund growth, dividends, or repay debt. Visualizing cash flows over time helped 
+    illustrate how IBM manages its day-to-day operations, capital investments, and financing needs.
+
+    The visualizations played a crucial role in this analysis. I used line plots to track trends in IBM's financial data, showing changes in assets, liabilities, and shareholder equity 
+    over time, along with liquidity ratios and cash flows. These visual representations allowed for clearer insights into the company's financial evolution. For example, seeing how 
+    liquidity ratios like the current and quick ratios fluctuate over time helped assess how IBM's ability to meet short-term debts has evolved.
+
+    In addition to trend analysis, I generated a correlation heatmap for the balance sheet items. This helped identify relationships between key financial metrics, such as the 
+    correlation between liabilities and assets, or between equity and debt. The heatmap's color gradients made it easy to spot strong and weak correlations, adding a deeper layer of 
+    analysis.
+
+    In summary, this project offered a thorough examination of IBM's financial health through ratio calculations, trend analysis, and data visualization. By combining these elements, I 
+    was able to analyze profitability, liquidity, capital structure, and cash flow dynamics, providing a holistic view of IBM's financial performance over time.
 
 - **Project 6:** In the works, get ready!
     
