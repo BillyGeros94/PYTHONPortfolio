@@ -134,6 +134,21 @@ Projects Overview
     was able to analyze profitability, liquidity, capital structure, and cash flow dynamics, providing a holistic view of IBM's financial performance over time.
 
 - **Project 6:** In the works, get ready!
+
+    In this project, I analyzed a dataset on customer churn from a telecommunications company. I started by loading the data and checking for missing values, which confirmed that the 
+    dataset was clean. Next, I ensured appropriate data types for key columns, particularly converting TotalCharges to numeric and treating SeniorCitizen as a categorical variable.
+
+    To explore customer behavior, I created various visualizations. A histogram with a kernel density estimate illustrated that most customers had short tenures, raising concerns about 
+    retention. A count plot of churn revealed a significant portion of customers had left. A boxplot comparing monthly charges against churn showed that customers who churned typically 
+    faced higher charges, suggesting a potential pricing issue. I also examined the relationship between tenure and monthly charges with a scatter plot, highlighting that higher charges 
+    correlated with shorter tenures.
+
+    I explored the impact of internet service types on tenure and churn with a boxplot, indicating that fiber optic customers tended to have longer tenures. A heatmap of the correlation 
+    matrix showed a negative correlation between tenure and monthly charges, suggesting long-term customers might benefit from lower prices.
+
+    To segment customers, I categorized them based on tenure and monthly charges. Count plots revealed distinct churn rates across these groups, indicating low-charging customers were 
+    less likely to churn while high-charging customers faced higher risks. Finally, analyzing churn by internet service type showed DSL users were less likely to leave compared to those 
+    on fiber optic. Overall, this project provided valuable insights into customer behavior, guiding strategies for improving retention in the telecommunications sector.
     
 ## Each project contains the following:
 
