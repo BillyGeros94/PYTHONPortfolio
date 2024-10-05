@@ -133,7 +133,7 @@ Projects Overview
     In summary, this project offered a thorough examination of IBM's financial health through ratio calculations, trend analysis, and data visualization. By combining these elements, I 
     was able to analyze profitability, liquidity, capital structure, and cash flow dynamics, providing a holistic view of IBM's financial performance over time.
 
-- **Project 6:** In the works, get ready!
+- **Project 6: Telecom Churn**
 
     In this project, I analyzed a dataset on customer churn from a telecommunications company. I started by loading the data and checking for missing values, which confirmed that the 
     dataset was clean. Next, I ensured appropriate data types for key columns, particularly converting TotalCharges to numeric and treating SeniorCitizen as a categorical variable.
